@@ -10,11 +10,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "afirmacao"
+                afirmacao: ["no inicio ficou com medo do que essa tecnologia pode fazer. ",
+                    "achou assustaddor pensar na velocidade ma a tecnologia está avançando."
+                ] 
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "afirmacao"
+                afirmacao: ["quis saber como usar IA no seu dia a dia.",
+                    "foi atrás de videos, artigos e mais informaçõe sobre como utilizar essa tecnologia."
+                ]
             }           
             
         ]
@@ -24,25 +28,37 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao:"afirmacao"
+                afirmacao: ["conseguiu utilizar a IA para buscar informações uteis.",
+                    "percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rapida e direcionada.",
+                    "percebeu que a Ia consegue explicar termos complicaos de forma simplificada e isso ajudou muito suas pesquisa sobre assunto complexos."
+                ]
             },
             {
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao:"afirmacao"
+                afirmacao: ["sentiu mais facilidade de ultilizar seus proprios recursos para escrever seus trabalhos.",
+                    "achou que era muito mais facil procurar por respostas ultilizandos alguns meios mais tradicionais mesmo que levasse mais tempo.",
+                    "sentiu um poouco de medo de quais dados pessoais seus a IA poderia ultilizar e por isso prefere fazer suas coisas com pouca intromissao da tecnologia."
+                ]
             }
         ]
     },
     {
         enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
         alternativas: [
-            {
-                texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao:"afirmacao"
-            },
-            {
+         {
                 texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao:"afirmacao"
-            }
+                afirmacao: ["vem impusionando a inovação ma area de IA e luta para abrir novos caminhos porfissionais com Ia.",
+                    "participa atovamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                ]
+            }  
+            {
+
+                texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                afirmacao: ["sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para descutir meios de utilizações de IA forma etica.",
+                    "criou grupos de eticas volatdos para a IA e busca produtiva aumentam as desigualdades geradas pela automação,"
+                ]
+            },
+           
             
         ]
     },
@@ -51,26 +67,10 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao:"afirmacao"
+                afirmacao: ["notou tambem que muitas pessoas ainda não sabem utilizar as ferramentas traducionais seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
+                    
+                ]
             },
-            {
-                texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao:"afirmacao"
-            }
-            
-        ]
-    },
-    {
-        enunciado: " Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
-        alternativas: [
-            {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao:"afirmacao"
-            },
-            {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao:"afirmacao"
-            }
             
             
         ]
