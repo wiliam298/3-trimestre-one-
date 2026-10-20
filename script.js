@@ -68,15 +68,30 @@ const perguntas = [
             {
                 texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
                 afirmacao: ["notou tambem que muitas pessoas ainda não sabem utilizar as ferramentas traducionais seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
-                    
+                    "ainda acha que os meios de desenhos tradicioanais são mais eficientes para a creatividade, por isso vem estimulando pessoas em sua rede sociais a fazer pintura em aquarela."
                 ]
             },
             
             
         ]
     },
+    {
+        enunciado: ".",
+        alternativa: [".",
+                        {
+                texto: "criar uma imagem utilizando um gerador de IA"
+                afirmacao: ["acelerou o processo de criação de trabalho utilizando geradores de imagens e agora consegue ensinar pessoas que sentem dificuldade em desenhar manualmente como utilizar tambem.",
+            "compartilhou artes em redes sociais como forma de ensinar como se comunicar atravez da arte.",
+            "percebeu que muitas pessoas tem dificuldade em expressar suas ideias desenha do e acha que a IA é capaz de empoderar essa pessoas e tirarem ideias do papel.",]
+            }
+        ]
+    }
+    {
+        enunciado: "voce tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho esta um pouco atrasado e uma pessoa do seu grupo decide fazer com ajuda de IA. O problema e que o trabalho esta totalmente igual ao do chat. O que vc faz?.",
+        alternativa:{""}
+    }
 ];
-
+    
 let atual = 0; 
 let perguntaAtual;
 let historiaFinal = "";
